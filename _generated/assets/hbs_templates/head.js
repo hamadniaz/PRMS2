@@ -1,0 +1,3 @@
+define(["handlebars"], function(Handlebars) { return Handlebars.template({"compiler":[7,">= 4.0.0"],"main":function(container,depth0,helpers,partials,data) {
+    return "<meta charset=\"utf-8\">\r\n<meta name=\"viewport\" content=\"width=device-width, initial-scale=1\">\r\n<link href=\"https://fonts.googleapis.com/css?family=Lato:100,200\" rel=\"stylesheet\">\r\n<link rel=\"stylesheet\" href=\"/assets/css/main.css\">";
+},"useData":true}); });

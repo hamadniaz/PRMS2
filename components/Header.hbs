@@ -1,0 +1,17 @@
+<header>
+    <div>
+        <h1><a href="/">{{global.site_name}}</a></h1>
+        {{#if global.site_description}}
+        <p>{{global.site_description}}</p>
+        {{/if}}
+    </div>
+</header>
+<nav>
+    <div>
+        {{#navlinks}}
+        {{#each this}}
+        <a href="/pages/{{this.page_slug}}/">{{this.content.navigation_title}}</a>
+        {{/each}}
+        {{/navlinks}}
+    </div>
+</nav>
